@@ -1,0 +1,236 @@
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    text-align: center;
+    background: #f2f2f2;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: "Inconsolata", monospace;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .background-main-image {
+    background-image: url("https://i.postimg.cc/zGLW0rrY/pexels-lukas-hartmann-1055613.jpg");
+  }
+  
+  btn {
+    min-width: 400px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: "Inconsolata", monospace;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    background-position: 100% 0;
+    background-size: 300%;
+    font-weight: bold;
+  }
+  
+  .btn-one {
+    border-color: #ffdb4d;
+    color: #fff;
+    background: #ffdb4d;
+  }
+  
+  section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 30px 0;
+  }
+  
+  /* Navigation */
+  nav {
+    background-image: url("https://i.postimg.cc/zGLW0rrY/pexels-lukas-hartmann-1055613.jpg");
+    font-weight: bold;
+  }
+  
+  nav ul {
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .text-golden {
+    color: #ffdb4d;
+    position: absolute;
+    left: -90px;
+    top: -16px;
+  }
+  
+  /* Page */
+  .page-title {
+    font-size: 30px;
+    color: #fff;
+  }
+  
+  .page-subtitle {
+    font-size: 90px;
+    color: #fff;
+  }
+  
+  .page-subtitle span {
+    font-family: "Signika";
+    color: #ff5e57;
+  }
+  
+  /* Services */
+  .services {
+    background: #e6e6e6;
+    color: #000000;
+    text-align: centre;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .inner-box {
+    flex: 0 0 33.333%;
+    position: relative;
+  }
+  
+  /* Our Portfolio*/
+  .box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    list-style-type: none;
+  }
+  
+  .box-wrapper > li {
+    flex-basis: 250px;
+    position: relative;
+  }
+  
+  .box-wrapper li img {
+    max-width: 140%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .work-img1::after {
+    content: "Cute penguin";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .work-img2::after {
+    content: "Happy koala";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .work-img3::after {
+    content: "Dignified tiger";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .work-img4::after {
+    content: "Faithful dog";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .work-img5::after {
+    content: "Fabulous elephant";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .work-img6::after {
+    content: "Grumbling cat";
+    background-color: #fff;
+    width: 140%;
+    height: 20%;
+    left: 0px;
+    top: 525px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  .socials ul {
+    list-style-type: none;
+    margin: 80px;
+    left: 320px;
+    float: left;
+    position: absolute;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+  }
+  
+  @media (max-width: 991px){
+      
+      nav ul li {
+          padding: 2px;
+      }
+      .socials ul {
+          left: 10px;
+      }
+      
+      .text-golden {
+          left: 130px;
+          top: 0px;
+      }
+  }
